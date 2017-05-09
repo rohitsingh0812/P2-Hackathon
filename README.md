@@ -44,3 +44,8 @@ make configure
 make px4-v2
 ```
 The PX4Firmware and PX4NuttX directories are dependencies for the ardupilot
+
+# 3DR Solo 
+Connect to 3DR Solo
+1. connect to wifi:  SoloLink_40253E  
+2. password: sololink
