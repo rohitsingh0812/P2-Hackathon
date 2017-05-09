@@ -12,12 +12,13 @@ cd ~/Documents/P2-Hackathon/HTTP_Suite/MAVLinkJavaGeneratorGUI/
 ant
 ```
 3. Start the HTTP Server
-To connect to the 3DR (14550 is default port)
+
+  * To connect to the 3DR (14550 is default port)
 ```
 cd ~/Documents/P2-Hackathon/HTTP_Suite/MuseNanoHttpServer/
 java -jar muse_http_server.jar <UDP port>
 ```
-To connect to the simulator
+  * To connect to the simulator
 ```
 cd ~/Documents/P2-Hackathon/HTTP_Suite/MuseNanoHttpServer/
 java -jar muse_http_server.jar <httpPort> <simulatorIP> <simulatorPort>
