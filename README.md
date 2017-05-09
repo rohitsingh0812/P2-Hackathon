@@ -1,4 +1,5 @@
 # P2-Hackathon
+VM password: applehorsebanana
 # HTTP Suite
 1. Build the HTTP Server
 ```
