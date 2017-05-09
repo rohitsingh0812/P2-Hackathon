@@ -1,0 +1,1376 @@
+
+Discarded input sections
+
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x92e oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x22 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x89f oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xc9 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x6bb oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x10 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x88 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x14e oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x125 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x5d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x23 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x53 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x39 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x9c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x18 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x49 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x4c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x28 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x5e oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x14d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xd1 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x58 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x10c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x28 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x98 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x59 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x11b oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x46 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x27f oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x10 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x195 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x8a oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x10 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x10 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xb4 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x41 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x4d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xa4 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xd1 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x19 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xc1 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x29 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x2b oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x167 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x30 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x78 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x28 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x6cb oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x20a oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0xf6f oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x2ab oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x8b5 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x78 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x14e oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x7ca oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xff oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0xae7 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x51 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x11a oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x1d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x206 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x56a oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x2bf oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xd3 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x34 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0xab0 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x17 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x6fa oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x22 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x596 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x29b oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000     0x15a4 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x53 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x347 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x96 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x1c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x9a oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x1cf oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x16c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x413 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x5f oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x1d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0xdf oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x13f oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x1c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0xdb4 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x16 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x21b oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000      0x24d oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x1c oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x58 oreoled_bootloader_avr.cpp.o
+ .debug_macro   0x00000000       0x46 oreoled_bootloader_avr.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD oreoled_bootloader.cpp.o
+LOAD oreoled_bootloader_avr.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 oreoled_bootloader.cpp.o
+ .text          0x00000000        0x0 oreoled_bootloader_avr.cpp.o
+ *(.gnu.warning)
+
+.text._ZL21oreoled_bl_init_usagev
+                0x00000000       0x3c
+ .text._ZL21oreoled_bl_init_usagev
+                0x00000000       0x3c oreoled_bootloader.cpp.o
+
+.text.oreoledbl_main
+                0x00000000      0x484
+ .text.oreoledbl_main
+                0x00000000      0x484 oreoled_bootloader.cpp.o
+                0x00000000                oreoledbl_main
+
+.text._ZN22OREOLED_BOOTLOADER_AVRD2Ev
+                0x00000000       0x38
+ .text._ZN22OREOLED_BOOTLOADER_AVRD2Ev
+                0x00000000       0x38 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::~OREOLED_BOOTLOADER_AVR()
+                0x00000000                OREOLED_BOOTLOADER_AVR::~OREOLED_BOOTLOADER_AVR()
+
+.text._ZThn4_N22OREOLED_BOOTLOADER_AVRD1Ev
+                0x00000000        0x8
+ .text._ZThn4_N22OREOLED_BOOTLOADER_AVRD1Ev
+                0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+                0x00000000                non-virtual thunk to OREOLED_BOOTLOADER_AVR::~OREOLED_BOOTLOADER_AVR()
+
+.text._ZN22OREOLED_BOOTLOADER_AVRD0Ev
+                0x00000000       0x12
+ .text._ZN22OREOLED_BOOTLOADER_AVRD0Ev
+                0x00000000       0x12 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::~OREOLED_BOOTLOADER_AVR()
+
+.text._ZThn4_N22OREOLED_BOOTLOADER_AVRD0Ev
+                0x00000000        0x8
+ .text._ZThn4_N22OREOLED_BOOTLOADER_AVRD0Ev
+                0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+                0x00000000                non-virtual thunk to OREOLED_BOOTLOADER_AVR::~OREOLED_BOOTLOADER_AVR()
+
+.text._ZN22OREOLED_BOOTLOADER_AVRC2Eii
+                0x00000000       0xa4
+ .text._ZN22OREOLED_BOOTLOADER_AVRC2Eii
+                0x00000000       0xa4 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::OREOLED_BOOTLOADER_AVR(int, int)
+                0x00000000                OREOLED_BOOTLOADER_AVR::OREOLED_BOOTLOADER_AVR(int, int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR10print_infoEv
+                0x00000000       0x48
+ .text._ZN22OREOLED_BOOTLOADER_AVR10print_infoEv
+                0x00000000       0x48 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::print_info()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR20version_is_supportedEh
+                0x00000000        0xc
+ .text._ZN22OREOLED_BOOTLOADER_AVR20version_is_supportedEh
+                0x00000000        0xc oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::version_is_supported(unsigned char)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR17firmware_checksumEv
+                0x00000000       0xbc
+ .text._ZN22OREOLED_BOOTLOADER_AVR17firmware_checksumEv
+                0x00000000       0xbc oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::firmware_checksum()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR16cmd_add_checksumEP13oreoled_cmd_t
+                0x00000000       0x26
+ .text._ZN22OREOLED_BOOTLOADER_AVR16cmd_add_checksumEP13oreoled_cmd_t
+                0x00000000       0x26 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::cmd_add_checksum(oreoled_cmd_t*)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR9app_resetEi
+                0x00000000       0xb8
+ .text._ZN22OREOLED_BOOTLOADER_AVR9app_resetEi
+                0x00000000       0xb8 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::app_reset(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR13app_reset_allEv
+                0x00000000       0x30
+ .text._ZN22OREOLED_BOOTLOADER_AVR13app_reset_allEv
+                0x00000000       0x30 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::app_reset_all()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR8app_pingEi
+                0x00000000       0x82
+ .text._ZN22OREOLED_BOOTLOADER_AVR8app_pingEi
+                0x00000000       0x82 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::app_ping(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR14coerce_healthyEv
+                0x00000000       0x3a
+ .text._ZN22OREOLED_BOOTLOADER_AVR14coerce_healthyEv
+                0x00000000       0x3a oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::coerce_healthy()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR17response_is_validEPK13oreoled_cmd_tPKhh
+                0x00000000       0x2e
+ .text._ZN22OREOLED_BOOTLOADER_AVR17response_is_validEPK13oreoled_cmd_tPKhh
+                0x00000000       0x2e oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::response_is_valid(oreoled_cmd_t const*, unsigned char const*, unsigned char)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR14print_responseEPKhh
+                0x00000000       0x4c
+ .text._ZN22OREOLED_BOOTLOADER_AVR14print_responseEPKhh
+                0x00000000       0x4c oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::print_response(unsigned char const*, unsigned char)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR14inapp_checksumEi
+                0x00000000       0xd4
+ .text._ZN22OREOLED_BOOTLOADER_AVR14inapp_checksumEi
+                0x00000000       0xd4 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::inapp_checksum(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR4pingEi
+                0x00000000       0xb4
+ .text._ZN22OREOLED_BOOTLOADER_AVR4pingEi
+                0x00000000       0xb4 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::ping(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR8discoverEv
+                0x00000000       0xfc
+ .text._ZN22OREOLED_BOOTLOADER_AVR8discoverEv
+                0x00000000       0xfc oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::discover()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR17startup_discoveryEv
+                0x00000000       0x40
+ .text._ZN22OREOLED_BOOTLOADER_AVR17startup_discoveryEv
+                0x00000000       0x40 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::startup_discovery()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR5startEv
+                0x00000000       0x18
+ .text._ZN22OREOLED_BOOTLOADER_AVR5startEv
+                0x00000000       0x18 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::start()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR7versionEi
+                0x00000000       0xb4
+ .text._ZN22OREOLED_BOOTLOADER_AVR7versionEi
+                0x00000000       0xb4 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::version(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR11app_versionEi
+                0x00000000       0xd0
+ .text._ZN22OREOLED_BOOTLOADER_AVR11app_versionEi
+                0x00000000       0xd0 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::app_version(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR12app_checksumEi
+                0x00000000       0xd0
+ .text._ZN22OREOLED_BOOTLOADER_AVR12app_checksumEi
+                0x00000000       0xd0 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::app_checksum(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR10set_colourEihh
+                0x00000000       0xb4
+ .text._ZN22OREOLED_BOOTLOADER_AVR10set_colourEihh
+                0x00000000       0xb4 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::set_colour(int, unsigned char, unsigned char)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR5flashEi
+                0x00000000      0x338
+ .text._ZN22OREOLED_BOOTLOADER_AVR5flashEi
+                0x00000000      0x338 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::flash(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR9flash_allEb
+                0x00000000       0x56
+ .text._ZN22OREOLED_BOOTLOADER_AVR9flash_allEb
+                0x00000000       0x56 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::flash_all(bool)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR4bootEi
+                0x00000000      0x108
+ .text._ZN22OREOLED_BOOTLOADER_AVR4bootEi
+                0x00000000      0x108 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::boot(int)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR8boot_allEv
+                0x00000000       0x30
+ .text._ZN22OREOLED_BOOTLOADER_AVR8boot_allEv
+                0x00000000       0x30 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::boot_all()
+
+.text._ZN22OREOLED_BOOTLOADER_AVR5ioctlEjm
+                0x00000000       0xde
+ .text._ZN22OREOLED_BOOTLOADER_AVR5ioctlEjm
+                0x00000000       0xde oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::ioctl(unsigned int, unsigned long)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR18update_applicationEb
+                0x00000000       0x6a
+ .text._ZN22OREOLED_BOOTLOADER_AVR18update_applicationEb
+                0x00000000       0x6a oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::update_application(bool)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR11run_updatesEb
+                0x00000000       0x22
+ .text._ZN22OREOLED_BOOTLOADER_AVR11run_updatesEb
+                0x00000000       0x22 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::run_updates(bool)
+
+.text._ZN22OREOLED_BOOTLOADER_AVR6updateEb
+                0x00000000       0x22
+ .text._ZN22OREOLED_BOOTLOADER_AVR6updateEb
+                0x00000000       0x22 oreoled_bootloader_avr.cpp.o
+                0x00000000                OREOLED_BOOTLOADER_AVR::update(bool)
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x00000000        0x4
+ *(.rodata)
+ .rodata        0x00000000        0x4 oreoled_bootloader_avr.cpp.o
+
+.rodata.str1.1  0x00000000      0x96a
+ .rodata.str1.1
+                0x00000000      0x379 oreoled_bootloader.cpp.o
+ .rodata.str1.1
+                0x00000379      0x5f1 oreoled_bootloader_avr.cpp.o
+
+.rodata._ZTV18OREOLED_BOOTLOADER
+                0x00000000       0x1c
+ .rodata._ZTV18OREOLED_BOOTLOADER
+                0x00000000       0x1c oreoled_bootloader_avr.cpp.o
+                0x00000000                vtable for OREOLED_BOOTLOADER
+
+.rodata._ZTV22OREOLED_BOOTLOADER_AVR
+                0x00000000       0x7c
+ .rodata._ZTV22OREOLED_BOOTLOADER_AVR
+                0x00000000       0x7c oreoled_bootloader_avr.cpp.o
+                0x00000000                vtable for OREOLED_BOOTLOADER_AVR
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 oreoled_bootloader.cpp.o
+ .data          0x00000000        0x0 oreoled_bootloader_avr.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 oreoled_bootloader.cpp.o
+ .bss           0x00000000        0x0 oreoled_bootloader_avr.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_112g_oreoled_blE
+                0x00000000        0x4
+ .bss._ZN12_GLOBAL__N_112g_oreoled_blE
+                0x00000000        0x4 oreoled_bootloader.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 oreoled_bootloader.cpp.o
+ .comment       0x00000071       0x71 oreoled_bootloader_avr.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 oreoled_bootloader_avr.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 oreoled_bootloader.cpp.o
+ .debug_aranges
+                0x00000028      0x118 oreoled_bootloader_avr.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3cc6
+ *(.debug_info)
+ .debug_info    0x00000000      0xc9f oreoled_bootloader.cpp.o
+ .debug_info    0x00000c9f     0x3027 oreoled_bootloader_avr.cpp.o
+
+.debug_abbrev   0x00000000      0x85f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x356 oreoled_bootloader.cpp.o
+ .debug_abbrev  0x00000356      0x509 oreoled_bootloader_avr.cpp.o
+
+.debug_line     0x00000000     0x2ee2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000     0x146a oreoled_bootloader.cpp.o
+ .debug_line    0x0000146a     0x1a78 oreoled_bootloader_avr.cpp.o
+
+.debug_frame    0x00000000      0x478
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x54 oreoled_bootloader.cpp.o
+ .debug_frame   0x00000054      0x424 oreoled_bootloader_avr.cpp.o
+
+.debug_str      0x00000000    0x9024a
+ *(.debug_str)
+ .debug_str     0x00000000    0x47ad2 oreoled_bootloader.cpp.o
+ .debug_str     0x00047ad2    0x48778 oreoled_bootloader_avr.cpp.o
+
+.debug_loc      0x00000000     0x1cf3
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x46b oreoled_bootloader.cpp.o
+ .debug_loc     0x0000046b     0x1888 oreoled_bootloader_avr.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x398
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x48 oreoled_bootloader.cpp.o
+ .debug_ranges  0x00000048      0x350 oreoled_bootloader_avr.cpp.o
+
+.debug_macro    0x00000000      0xce8
+ *(.debug_macro)
+ .debug_macro   0x00000000      0x631 oreoled_bootloader.cpp.o
+ .debug_macro   0x00000631      0x6b7 oreoled_bootloader_avr.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x35 oreoled_bootloader.cpp.o
+ .ARM.attributes
+                0x00000035       0x35 oreoled_bootloader_avr.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/ground/Documents/PX4Firmware/Build/px4fmu-v2_APM.build//home/ground/Documents/PX4Firmware/src/drivers/oreoled/oreoled_bootloader/module.pre.o elf32-littlearm)
+
+.debug_macro    0x00000000      0x92e
+ .debug_macro   0x00000000      0x92e oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x22
+ .debug_macro   0x00000000       0x22 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x89f
+ .debug_macro   0x00000000      0x89f oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xc9
+ .debug_macro   0x00000000       0xc9 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x6bb
+ .debug_macro   0x00000000      0x6bb oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x10
+ .debug_macro   0x00000000       0x10 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x88
+ .debug_macro   0x00000000       0x88 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x14e
+ .debug_macro   0x00000000      0x14e oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x125
+ .debug_macro   0x00000000      0x125 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x5d
+ .debug_macro   0x00000000       0x5d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x23
+ .debug_macro   0x00000000       0x23 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x53
+ .debug_macro   0x00000000       0x53 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x39
+ .debug_macro   0x00000000       0x39 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x9c
+ .debug_macro   0x00000000       0x9c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x18
+ .debug_macro   0x00000000       0x18 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x49
+ .debug_macro   0x00000000       0x49 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x4c
+ .debug_macro   0x00000000       0x4c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x28
+ .debug_macro   0x00000000       0x28 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x5e
+ .debug_macro   0x00000000       0x5e oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x14d
+ .debug_macro   0x00000000      0x14d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xd1
+ .debug_macro   0x00000000       0xd1 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x58
+ .debug_macro   0x00000000       0x58 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x10c
+ .debug_macro   0x00000000      0x10c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x28
+ .debug_macro   0x00000000       0x28 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x98
+ .debug_macro   0x00000000       0x98 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x59
+ .debug_macro   0x00000000       0x59 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x11b
+ .debug_macro   0x00000000      0x11b oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x46
+ .debug_macro   0x00000000       0x46 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x27f
+ .debug_macro   0x00000000      0x27f oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x10
+ .debug_macro   0x00000000       0x10 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x195
+ .debug_macro   0x00000000      0x195 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x8a
+ .debug_macro   0x00000000       0x8a oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x10
+ .debug_macro   0x00000000       0x10 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x10
+ .debug_macro   0x00000000       0x10 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xb4
+ .debug_macro   0x00000000       0xb4 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x41
+ .debug_macro   0x00000000       0x41 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x4d
+ .debug_macro   0x00000000       0x4d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xa4
+ .debug_macro   0x00000000       0xa4 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xd1
+ .debug_macro   0x00000000       0xd1 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x19
+ .debug_macro   0x00000000       0x19 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x4d
+ .debug_macro   0x00000000       0x4d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xc1
+ .debug_macro   0x00000000       0xc1 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x29
+ .debug_macro   0x00000000       0x29 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x2b
+ .debug_macro   0x00000000       0x2b oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x167
+ .debug_macro   0x00000000      0x167 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x30
+ .debug_macro   0x00000000       0x30 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x78
+ .debug_macro   0x00000000       0x78 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x28
+ .debug_macro   0x00000000       0x28 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x6cb
+ .debug_macro   0x00000000      0x6cb oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x20a
+ .debug_macro   0x00000000      0x20a oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0xf6f
+ .debug_macro   0x00000000      0xf6f oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x2ab
+ .debug_macro   0x00000000      0x2ab oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x8b5
+ .debug_macro   0x00000000      0x8b5 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x78
+ .debug_macro   0x00000000       0x78 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x14e
+ .debug_macro   0x00000000      0x14e oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x7ca
+ .debug_macro   0x00000000      0x7ca oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xff
+ .debug_macro   0x00000000       0xff oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0xae7
+ .debug_macro   0x00000000      0xae7 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x51
+ .debug_macro   0x00000000       0x51 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x11a
+ .debug_macro   0x00000000      0x11a oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x1d
+ .debug_macro   0x00000000       0x1d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x206
+ .debug_macro   0x00000000      0x206 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x56a
+ .debug_macro   0x00000000      0x56a oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x2bf
+ .debug_macro   0x00000000      0x2bf oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xd3
+ .debug_macro   0x00000000       0xd3 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x34
+ .debug_macro   0x00000000       0x34 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0xab0
+ .debug_macro   0x00000000      0xab0 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x17
+ .debug_macro   0x00000000       0x17 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x6fa
+ .debug_macro   0x00000000      0x6fa oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x22
+ .debug_macro   0x00000000       0x22 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x596
+ .debug_macro   0x00000000      0x596 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x29b
+ .debug_macro   0x00000000      0x29b oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000     0x15a4
+ .debug_macro   0x00000000     0x15a4 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x53
+ .debug_macro   0x00000000       0x53 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x347
+ .debug_macro   0x00000000      0x347 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x96
+ .debug_macro   0x00000000       0x96 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x1c
+ .debug_macro   0x00000000       0x1c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x9a
+ .debug_macro   0x00000000       0x9a oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x1cf
+ .debug_macro   0x00000000      0x1cf oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x16c
+ .debug_macro   0x00000000      0x16c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x413
+ .debug_macro   0x00000000      0x413 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x5f
+ .debug_macro   0x00000000       0x5f oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x1d
+ .debug_macro   0x00000000       0x1d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0xdf
+ .debug_macro   0x00000000       0xdf oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x13f
+ .debug_macro   0x00000000      0x13f oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x1c
+ .debug_macro   0x00000000       0x1c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0xdb4
+ .debug_macro   0x00000000      0xdb4 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x16
+ .debug_macro   0x00000000       0x16 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x21b
+ .debug_macro   0x00000000      0x21b oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000      0x24d
+ .debug_macro   0x00000000      0x24d oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x1c
+ .debug_macro   0x00000000       0x1c oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x58
+ .debug_macro   0x00000000       0x58 oreoled_bootloader.cpp.o
+
+.debug_macro    0x00000000       0x46
+ .debug_macro   0x00000000       0x46 oreoled_bootloader.cpp.o
