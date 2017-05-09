@@ -34,10 +34,10 @@ java -jar mavlink_http_client.jar <httpPort>
 Important: You must rename the PX4Firmware-solo directory to PX4Firmware and PX4NuttX-solo to PX4NuttX.
 ```
 cd ~/Documents/P2-Hackathon/ardupilot
-rm PX4Firmware
+rmdir PX4Firmware
 mv PX4Firmware-solo PX4Firmware
-rm PX4NuttX
-mv PX4NuttX-solo PX4 NuttX
+rmdir PX4NuttX
+mv PX4NuttX-solo PX4NuttX
 ```
 If you're manually building outside of the VM, run this script to install dependencies: 
 
