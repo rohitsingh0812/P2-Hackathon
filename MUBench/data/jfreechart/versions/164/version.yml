@@ -1,0 +1,11 @@
+build:
+  classes: build/classes/main/
+  commands:
+  - gradle :compileJava
+  src: source/
+misuses:
+- '3a'
+- '3b'
+- '4a'
+- '4b'
+revision: 163

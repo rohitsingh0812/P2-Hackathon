@@ -1,0 +1,8 @@
+Start Server:
+1.) $ cd ~/Documents/HTTP_Ground_Control/HTTP_Server
+2.) $ java –jar muse_http_server.jar <httpServerPort>  <simulatorIP> <simulatorPort>
+	Example Command: $ java -jar muse_http_server.jar 8080 192.168.1.15 14550	
+Start Client:
+1.) $ cd ~/Documents/HTTP_Ground_Control/HTTP_Client
+2.) $ java -jar mavlink_http_client.jar 
+

@@ -1,0 +1,181 @@
+<?php
+/**
+ * @var string $user the logged in user, if any
+ *
+ * @var string $site_base_url
+ * @var string $public_url_prefix
+ * @var string $private_url_prefix
+ * @var string $url_prefix the public or private url prefix, depending on whether the user is logged in
+ *
+ * @var string $path the current route path
+ * @var string $origin_param url parameter that carries the $path
+ * @var string $origin_path referrer path
+ *
+ * @var array $experiments all experiments (Experiment)
+ * @var array $detectors detectors (Detector) with results per experiment
+ * @var Experiment $experiment the selected experiment, if any
+ * @var Detector $detector the selected detector, if any
+ *
+ * @var array $runs the detectors experiment runs
+ */
+use MuBench\ReviewSite\Model\Detector;
+use MuBench\ReviewSite\Model\Experiment;
+use MuBench\ReviewSite\Model\Decision;
+use MuBench\ReviewSite\Model\Review;
+use MuBench\ReviewSite\Model\ReviewState;
+?>
+<html>
+<head>
+    <title>MuBench :: Review Site</title>
+    <link rel="stylesheet" type="text/css" href="<?= $site_base_url ?>style/style.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<?php include "includes/menu.phtml"; ?>
+
+    <h1>Experiment <?= $experiment->getNumber() ?>: <?= htmlspecialchars($experiment->getTitle()) ?></h1>
+    <h2>Detector: <?= htmlspecialchars($detector->name); ?></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Version</th>
+                <th>Result</th>
+                <th># of Findings</th>
+                <th>Runtime</th>
+                <th>Misuse</th>
+                <?php if($experiment->getId() !== "ex2") : ?><th>Violation Types</th><?php endif ?>
+                <th>Decision</th>
+                <th>Reviews</th>
+                <th>Your Review</th>
+                <th>Your Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php $last_project = "" ?>
+        <?php foreach($runs as $run) : ?>
+            <?php
+            $project = $run["project"];
+            $new_project = strcmp($last_project, $run["project"]) !== 0;
+            $last_project = $project;
+            $version = $run["version"];
+            $new_version = true;
+            ?>
+            <?php foreach($run['misuses'] as $misuse) : /* @var $misuse \MuBench\ReviewSite\Model\Misuse */ ?>
+                <?php
+                $classes = [];
+                if($new_project) $classes[] = "top";
+                if(!$misuse->hasPotentialHits()) $classes[] = "no-hit";
+                $style_classes = implode(" ", $classes);
+                ?>
+                <tr>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_project ? htmlspecialchars($project) : ""; ?></td>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_version ? htmlspecialchars($version) : ""; ?></td>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_version ? htmlspecialchars($run['result']) : ""; ?></td>
+                    <td class="<?= $style_classes ?> right">
+                        <?= $new_version ? htmlspecialchars($run['number_of_findings']) : ""; ?></td>
+                    <td class="<?= $style_classes ?> right">
+                        <?= $new_version ? htmlspecialchars(substr($run['runtime'], 0, 4)) . "s" : ""; ?></td>
+                    <td class="<?= $style_classes ?>">
+                        <?= htmlspecialchars($misuse->getShortId()); ?></td>
+                    <?php if($experiment->getId() !== "ex2") : ?>
+                        <td class="<?= $style_classes ?>">
+                            <?= implode("<br/>", $misuse->getViolationTypes()) ?>
+                        </td>
+                    <?php endif; ?>
+                    <?php
+                        $review_url = $url_prefix . htmlspecialchars($experiment->getId()) . "/" . htmlspecialchars($detector->name) . "/" .
+                            htmlspecialchars($project) . "/" . htmlspecialchars($version) . "/" . htmlspecialchars($misuse->id);
+                    ?>
+                    <td class="<?= $style_classes ?>">
+                        <?php $review_state = $misuse->getReviewState() ?>
+                        <?php if ($review_state == ReviewState::NOTHING_TO_REVIEW): ?>
+                        <?php elseif ($review_state == ReviewState::NEEDS_REVIEW): ?>
+                            <i class="fa fa-search" aria-hidden="true" style="color:red;" title="Needs Review"></i>
+                        <?php elseif ($review_state == ReviewState::NEEDS_CLARIFICATION): ?>
+                            <i class="fa fa-question-circle" aria-hidden="true" style="color:blue;" title="Needs Clarification"></i>
+                        <?php elseif ($review_state == ReviewState::DISAGREEMENT): ?>
+                        <a href="<?= $review_url ?>/resolution"><i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:red;" title="Disagreement"></i></a>
+                        <?php elseif ($review_state == ReviewState::AGREEMENT_YES): ?>
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color:green;" title="Agreement: Yes"></i>
+                        <?php elseif ($review_state == ReviewState::AGREEMENT_NO): ?>
+                            <i class="fa fa-thumbs-o-down" aria-hidden="true" style="color:darkred;" title="Agreement: No"></i>
+                        <?php elseif ($review_state == ReviewState::RESOLVED_YES): ?>
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color:green;" title="Resolved: Yes"></i>
+                            (<a href="<?= $review_url ?>/resolution"><i class="fa fa-handshake-o" aria-hidden="true" title="Resolution"></i></a>)
+                        <?php elseif ($review_state == ReviewState::RESOLVED_NO): ?>
+                            <i class="fa fa-thumbs-o-down" aria-hidden="true" style="color:darkred;" title="Resolved: No"></i>
+                            (<a href="<?= $review_url ?>/resolution"><i class="fa fa-handshake-o" aria-hidden="true" title="Resolution"></i></a>)
+                        <?php endif; ?>
+                    </td>
+                    <td class="<?= $style_classes ?>">
+                        <ul class="inline">
+                            <?php foreach($misuse->getReviews() as $review) : /** @var Review $review */ ?>
+                                <?php $reviewer_name = htmlspecialchars($review->getReviewerName()) ?>
+                                <li style="display:inline"><a href="<?= $review_url ?>/<?= $reviewer_name ?>"><?= $reviewer_name ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </td>
+                    <td class="<?= $style_classes ?>">
+                        <?php
+                        $button_classes = "button" . (!$misuse->hasPotentialHits() || ($user && $misuse->hasSufficientReviews() || $misuse->hasReviewed($user)) ? " no-hit" : "")
+                        ?>
+                        <?php if (!$user): ?>
+                            <a href="<?= $review_url; ?>" class="<?= $button_classes ?>">view</a>
+                        <?php elseif ($misuse->hasReviewed($user)): ?>
+                            <a href="<?= $review_url ?>" class="<?= $button_classes ?>">edit
+                            <?php $your_decision = $misuse->getReview($user)->getDecision() ?>
+                            <?php if ($your_decision == Decision::YES): ?>
+                                (<i class="fa fa-thumbs-o-up" aria-hidden="true" style="color:green;" title="Yes"></i>)
+                            <?php elseif ($your_decision == Decision::NO): ?>
+                                (<i class="fa fa-thumbs-o-down" aria-hidden="true" style="color:darkred;" title="No"></i>)
+                            <?php else: ?>
+                                (<i class="fa fa-question-circle" aria-hidden="true" style="color:blue;" title="Need Clarification"></i>)
+                            <?php endif; ?>
+                            </a>
+                        <?php else: ?>
+                            <a href="<?= $review_url; ?>" class="<?= $button_classes ?>">review</a>
+                        <?php endif; ?>
+                    </td>
+                    <td class="<?= $style_classes ?>" style="max-width: 300px;">
+                        <?= $misuse->hasReviewed($user) ? $misuse->getReview($user)->getComment() : "" ?>
+                    </td>
+                </tr>
+                <?php
+                $new_version = false;
+                $new_project = false;
+                ?>
+            <?php endforeach; ?>
+            <?php if(!$run["misuses"]) : ?>
+                <?php
+                $classes = ["no-hit"];
+                if($new_project) $classes[] = "top";
+                $style_classes = implode(" ", $classes);
+                ?>
+                <tr>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_project ? htmlspecialchars($project) : ""; ?></td>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_version ? htmlspecialchars($version) : ""; ?></td>
+                    <td class="<?= $style_classes ?>">
+                        <?= $new_version ? htmlspecialchars($run['result']) : ""; ?></td>
+                    <td class="<?= $style_classes ?> right">
+                        <?= $new_version ? htmlspecialchars($run['number_of_findings']) : ""; ?></td>
+                    <td class="<?= $style_classes ?> right">
+                        <?= $new_version ? htmlspecialchars(substr($run['runtime'], 0, 4)) . "s" : ""; ?></td>
+                    <td class="<?= $style_classes ?>"></td>
+                    <?php if ($experiment->getId() !== "ex2"): ?><td class="<?= $style_classes ?>"></td><?php endif ?>
+                    <td class="<?= $style_classes ?>"></td>
+                    <td class="<?= $style_classes ?>"></td>
+                    <td class="<?= $style_classes ?>"></td>
+                    <td class="<?= $style_classes ?>" style="max-width: 300px;"></td>
+                </tr>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+</body>
+</html>

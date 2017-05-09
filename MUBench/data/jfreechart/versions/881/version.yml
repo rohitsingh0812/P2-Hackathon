@@ -1,0 +1,9 @@
+build:
+  classes: build/classes/main/
+  commands:
+  - gradle :compileJava
+  src: source/
+misuses:
+- '7a'
+- '7b'
+revision: 810

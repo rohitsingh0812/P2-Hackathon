@@ -1,0 +1,19 @@
+api:
+- javax.swing.JFrame
+characteristics:
+- missing/call
+crash: false
+description: >
+  Calls JFrame.setPreferredSize() without calling JFrame.pack(), such
+  that the size is not respected when rendering the frame.
+location:
+  file: Pack1.java
+  method: "misuse(JFrame, Dimension)"
+fix:
+  description: >
+    Call JFrame.pack() after JFrame.setPreferredSize().
+internal: false
+pattern:
+- single object
+source:
+  name: Survey

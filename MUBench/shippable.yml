@@ -1,0 +1,37 @@
+build:
+  pre_ci_boot:
+    image_name: svamann/mubench-ci
+    image_tag: latest
+    pull: true
+
+language: python
+
+before_script:
+  - mkdir -p shippable/testresults
+  - sudo chmod +x ./mubench.pipeline/benchmark.py
+  - sudo chmod +x ./mubench.reviewsite/configure.sh
+
+script: 
+  # mubench.cli
+  - mvn install -f mubench.cli/pom.xml
+  
+  # mubench.utils
+  - mvn verify -f mubench.utils/pom.xml
+  
+  # mubench.dummy
+  - mvn verify -f mubench.dummy/pom.xml
+  - cp mubench.dummy/target/Dummy.jar detectors/Dummy/Dummy.jar
+  
+  # mubench.pipeline
+  - nosetests -w mubench.pipeline --with-xunit --xunit-file=shippable/testresults/nosetests.xml
+  - "./mubench.pipeline/benchmark.py detect Dummy 1 --only synthetic"
+  
+  # mubench.reviewsite
+  - ./mubench.reviewsite/configure.sh
+  - phpunit --bootstrap mubench.reviewsite/vendor/autoload.php mubench.reviewsite/tests/
+
+notifications:
+  email:
+    - mattis.kaemmerer@gmx.de
+    - amann@cs.tu-darmstadt.de
+    - jonas.schlitzer@googlemail.com

@@ -1,0 +1,9 @@
+build:
+  classes: build/classes/main/
+  commands:
+  - gradle :compileJava
+  src: src/
+misuses:
+- '1'
+- '2'
+revision: 1311
