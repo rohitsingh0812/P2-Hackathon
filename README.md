@@ -23,6 +23,16 @@ java -jar mavlink_http_client.jar <httpPort>
 ```
 
 # Ardupilot
+
+Important: You must rename the PX4Firmware-solo directory to PX4Firmware and PX4NuttX-solo to PX4NuttX.
+```
+cd ~/Documents/P2-Hackathon/ardupilot
+rm PX4Firmware
+mv PX4Firmware-solo PX4Firmware
+rm PX4NuttX
+mv PX4NuttX-solo PX4 NuttX
+```
+Build ArduCoper
 ```
 cd ~/Documents/P2-Hackathon/ardupilot/ardupilot-solo/ArduCopter
 make clean
