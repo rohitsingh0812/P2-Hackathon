@@ -45,7 +45,7 @@ If you're manually building outside of the VM, run this script to install depend
 
 Build ArduCoper
 ```
-cd ~/Documents/P2-Hackathon/ardupilot/ardupilot-solo/ArduCopter
+cd ~/Documents/P2-Hackathon/ardupilot/ardupilot/ArduCopter
 make clean
 make configure
 make px4-v2
