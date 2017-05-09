@@ -32,6 +32,10 @@ mv PX4Firmware-solo PX4Firmware
 rm PX4NuttX
 mv PX4NuttX-solo PX4 NuttX
 ```
+If you're manually building outside of the VM, run this script to install dependencies: 
+
+`~/Documents/P2-Hackathon/ardupilot/ardupilot/Tools/scripts/install-prereqs-ubuntu.sh`
+
 Build ArduCoper
 ```
 cd ~/Documents/P2-Hackathon/ardupilot/ardupilot-solo/ArduCopter
