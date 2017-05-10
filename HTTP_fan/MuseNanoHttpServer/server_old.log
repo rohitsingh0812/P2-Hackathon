@@ -1,0 +1,6 @@
+    [java] 	type=74 length=20 MAVLINK_MSG_ID_VFR_HUD :   airspeed=0.0  groundspeed=0.0  alt=11.429999  climb=0.0  heading=199  throttle=0
+     [java] 	SysId=1 CompId=1 seq=102 type=2 length=12 MAVLINK_MSG_ID_SYSTEM_TIME :   time_unix_usec=0  time_boot_ms=9122766
+     [java] 	SysId=1 CompId=1 seq=84 type=116 length=22 MAVLINK_MSG_ID_SCALED_IMU2 :   time_boot_ms=9122765  xacc=0  yacc=32  zacc=-1035  xgyro=-10  ygyro=1  zgyro=-22  xmag=-336  ymag=72  zmag=386
+     [java] 	SysId=1 CompId=1 seq=85 type=129 length=22 MAVLINK_MSG_ID_SCALED_IMU3 :   time_boot_ms=9122765  xacc=-5  yacc=-1  zacc=-1000  xgyro=1  ygyro=0  zgyro=2  xmag=-135  ymag=-223  zmag=310
+     [java] 	SysId=1 CompId=1 seq=86 type=29 length=14 MAVLINK_MSG_ID_SCALED_PRESSURE :   time_boot_ms=9122765  press_abs=1014.73706  press_diff=-1.3301562  temperature=5459
+
