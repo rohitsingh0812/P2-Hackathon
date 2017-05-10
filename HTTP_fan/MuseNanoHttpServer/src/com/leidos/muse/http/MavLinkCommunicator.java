@@ -58,7 +58,7 @@ class MavLinkCommunicator extends Thread
     private boolean isUDP = true;
     
     private int mySysID = 255;  // system id of our mavlink client
-    private int targetID = 2;   //  target id of the simulator 
+    private int targetID = 1;   //  target id of the simulator 
     
     private boolean bConnected = false;
     private DialsVHUD hud = null;
@@ -169,10 +169,11 @@ class MavLinkCommunicator extends Thread
 			System.out.println("Sending ARM command... Bytes sent: " + result1.length);
 			
 			
-			out.write(result1); 
-	        out.flush(); 
+			//out.write(result1); 
+	        //out.flush(); 
 	        
-	        String response = waitForResponse(1);
+	        String response = this.send(result1,false); 
+	        //waitForResponse(1);
             return response;
     		
 		} catch (IOException e) {
@@ -219,6 +220,7 @@ class MavLinkCommunicator extends Thread
     	try {
     		
     		// SET MODE to mode
+    		System.out.println("mode: " + mode);
     		msg_set_mode msg = new msg_set_mode(mySysID,0);
     		msg.sequence = sequence++;
     		msg.target_system = targetID;
@@ -237,6 +239,13 @@ class MavLinkCommunicator extends Thread
     			speak("mode changed to guided");
     			msg.custom_mode = 4;
         		msg.base_mode = 59;
+    			break;
+    		case 2:
+    			System.out.println("got alt hold mode");
+    			bManual = true;
+    			//speak("mode changed to alt hold");
+    			msg.custom_mode = 2;
+        		msg.base_mode = 81;
     			break;
     		}
     		
@@ -354,7 +363,7 @@ class MavLinkCommunicator extends Thread
 			byte[] result2 = take.encode();
 			
 			System.out.println("Sending TAKEOFF command... Bytes sent: " + result2.length);
-			String response = send(result2, true);
+			String response = send(result2, false);
 	        
             return response;
             
@@ -411,7 +420,7 @@ class MavLinkCommunicator extends Thread
 			byte[] result2 = msgland.encode();
 			
 			System.out.println("Sending LAND command2... Bytes sent: " + result2.length);
-			String response = send(result2, true);
+			String response = send(result2, false);
 	        
             return response;
 	        
@@ -485,8 +494,9 @@ class MavLinkCommunicator extends Thread
     }
     
     private void speak(String text){     
-    	  voice.allocate();
-    	  voice.speak(text);
+    	return;  
+    	//voice.allocate();
+    	//voice.speak(text);
       }
     
     /**
@@ -512,7 +522,7 @@ class MavLinkCommunicator extends Thread
 		        	   
 		        	 // Log any message thats not a heartbeat
 		           	 if (mavMsg.messageType != 0 || mavMsg instanceof msg_mission_ack){
-		           		 System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
+		           		 //System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
 		           		 response += (mavMsg.toString() + ",");
 		           	 }
 		           	 // Received Mavlink CMD acknowledgement or Mission ACK
@@ -580,7 +590,7 @@ class MavLinkCommunicator extends Thread
 		             if( mavMsg instanceof msg_mission_item){  
 		            	 
 		            	 msg_mission_item msg = (msg_mission_item)mavMsg;
-		            	 System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
+		            	 //System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
 		            	 response += ("Home Position: " + msg.x + "; " + msg.y + "; " + msg.z);
 		            	 counter = 1600;
 		           		 break;         	 
@@ -628,7 +638,7 @@ class MavLinkCommunicator extends Thread
 		             if( mavMsg instanceof msg_mission_item){  
 		            	 
 		            	 msg_mission_item msg = (msg_mission_item)mavMsg;
-		            	 System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
+		            	 //System.out.println("SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " "+ mavMsg.toString());
 		            	 response += ("Home Position: " + msg.x + "; " + msg.y + "; " + msg.z);
 		            	 counter = 1600;
 		           		 break;         	 
@@ -711,7 +721,7 @@ class MavLinkCommunicator extends Thread
         	else{
         		dsocket.setSoTimeout(1000);
 	            mavReader = new MAVLinkReader();
-//	            out = myClientSocket.getOutputStream();              
+	            //out = myClientSocket.getOutputStream();              
  		
         	}
             
@@ -747,7 +757,7 @@ class MavLinkCommunicator extends Thread
                 		else if (mavMsg.messageType == 74 && mavMsg instanceof msg_vfr_hud){
                 			msg_vfr_hud vfr = (msg_vfr_hud)mavMsg;
                 			hud.updateHUD2(vfr.heading, vfr.alt, vfr.throttle);
-                            System.out.println("	type=" + mavMsg.messageType + " length=" + mavMsg.length + " "+ mavMsg.toString());
+                            //System.out.println("	type=" + mavMsg.messageType + " length=" + mavMsg.length + " "+ mavMsg.toString());
                 		}
                 		else if (mavMsg.messageType == 74 && mavMsg instanceof msg_vfr_hud){
                 			msg_vfr_hud att = (msg_vfr_hud)mavMsg;
@@ -772,7 +782,7 @@ class MavLinkCommunicator extends Thread
                 	             break; // Go out of the loop and get new packet
                 	    }
       		          // Print out all received messages
-                      System.out.println("	SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " seq=" + mavMsg.sequence + " type=" + mavMsg.messageType + " length=" + mavMsg.length + " "+ mavMsg.toString()); 
+                      //System.out.println("	SysId=" + mavMsg.sysId + " CompId=" + mavMsg.componentId + " seq=" + mavMsg.sequence + " type=" + mavMsg.messageType + " length=" + mavMsg.length + " "+ mavMsg.toString()); 
                 	}      	            
             	}
             	// tcp

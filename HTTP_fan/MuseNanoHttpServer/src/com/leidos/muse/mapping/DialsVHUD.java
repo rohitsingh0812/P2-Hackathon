@@ -86,6 +86,7 @@ public class DialsVHUD extends JFrame
 		}
 		public void updateHUD3(double battery)
 		{
+			datasetBattery.setValue(battery);
 		}
 
 		public DemoPanel()
